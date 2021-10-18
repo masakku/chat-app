@@ -35,10 +35,10 @@
   padding: 0 20px;
   overflow: scroll;
 }
-.chatt{
+.room {
   padding: 20px 0px 40px 0px;
 }
-.chatt-name a {
+.room-name a {
   text-decoration: none;
   color: white;
 }
