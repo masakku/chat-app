@@ -1,4 +1,5 @@
 class RoomsController < ApplicationController
+
   def new
     @room = Room.new
   end
@@ -9,6 +10,9 @@ class RoomsController < ApplicationController
       redirect_to root_path
     else
       render :new
+    end
+
+    def index
     end
   end
 
